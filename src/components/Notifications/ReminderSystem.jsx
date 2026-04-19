@@ -1,5 +1,6 @@
 // src/components/Notifications/ReminderSystem.jsx
 import { useEffect, useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { collection, getDocs, query, where, addDoc, updateDoc, doc, Timestamp } from 'firebase/firestore';
 import { db } from '../../firebase/config';
 import { useAuth } from '../../contexts/AuthContext';
@@ -158,6 +159,18 @@ export default function ReminderSystem() {
         autoMissed: true,
       });
       toast.error(`⏰ Auto-marked missed: ${med.name} at ${time}`, { duration: 6000 });
+      emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  {
+    to_email: 'emergency@example.com',
+    patient_name: currentUser.displayName,
+    medicine_name: med.name,
+    status: 'MISSED ❌',
+    time: time,
+  },
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+);
     }
     dismissReminder(`${med.id}_${time}`);
   }

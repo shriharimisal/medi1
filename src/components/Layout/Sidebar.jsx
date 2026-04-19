@@ -10,6 +10,7 @@ const NAV = [
   { to: '/calendar', icon: '📅', label: 'Calendar' },
   { to: '/history', icon: '📋', label: 'Dose History' },
   { to: '/reports', icon: '📊', label: 'Reports' },
+  { to: '/settings', icon: '⚙️', label: 'Settings' },
 ];
 
 export default function Sidebar() {

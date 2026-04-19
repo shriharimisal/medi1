@@ -8,6 +8,7 @@ import Navbar from './components/Layout/Navbar';
 import Dashboard from './components/Dashboard/Dashboard';
 import MedicineList from './components/Medicines/MedicineList';
 import CalendarView from './components/Calendar/CalendarView';
+import Settings from './components/Settings/Settings';
 import Reports from './components/Reports/Reports';
 import DoseHistory from './components/History/DoseHistory';
 import ReminderSystem from './components/Notifications/ReminderSystem';
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<Navigate to="/login" />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     );
   }

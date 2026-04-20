@@ -5,8 +5,8 @@ A full-stack healthcare web application that helps users never miss their medica
 ![Apothecary Dashboard](https://via.placeholder.com/800x400/0d9488/ffffff?text=Apothecary+Medicine+Reminder)
 
 ## 🌐 Live Demo
-- **App:** [Deploy to Vercel — see instructions below]
-- **Demo Login:** `demo@medreminder.com` / `Demo@1234`
+- App: https://medi1-flame.vercel.app
+
 
 ---
 

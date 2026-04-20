@@ -44,6 +44,7 @@ export default function App() {
           <Route path="/calendar" element={<CalendarView />} />
           <Route path="/history" element={<DoseHistory />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>

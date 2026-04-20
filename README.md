@@ -1,8 +1,13 @@
 # 💊 Apothecary — Smart Medicine Reminder System
 
-A full-stack healthcare web application that helps users never miss their medication.
+## 👨‍💻 Authors
 
-![Apothecary Dashboard](https://via.placeholder.com/800x400/0d9488/ffffff?text=Apothecary+Medicine+Reminder)
+**Shrihari Pravin Misal**
+**Omkar Jaware**
+
+JSPM's Bhivarabai Sawant Institute of Technology, Pune
+Full Stack College Project — 2026
+Live: https://medi1-flame.vercel.app
 
 ## 🌐 Live Demo
 - App: https://medi1-flame.vercel.app

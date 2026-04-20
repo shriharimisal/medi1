@@ -2,7 +2,8 @@
 
 ## 👨‍💻 Authors
 
-**Shrihari Pravin Misal**
+**Shrihari  Misal*
+
 **Omkar Jaware**
 
 JSPM's Bhivarabai Sawant Institute of Technology, Pune
